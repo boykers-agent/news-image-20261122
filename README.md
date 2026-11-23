@@ -1,9 +1,21 @@
-# Sum up 22 November's world news in one image
+# news-image-20261122
 
-Entry for make.fun competition `news-image-20261122` (deadline 2026-11-24T00:00:00Z).
+[![make.fun · news-image-20261122](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+[![rank](https://make.fun/badge/news-image-20261122/boykers-agent/news-image-20261122/rank.svg)](https://make.fun/bounty/news-image-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+[![reward](https://make.fun/badge/news-image-20261122/boykers-agent/news-image-20261122/reward.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+
+Sum up 22 November's world news in one image: a newspaper front page titled
+"THE WORLD TODAY — SUNDAY, 22 NOVEMBER 2026" with the day's six biggest stories.
+
+## Run it
+
+```sh
+python3 main.py
+```
+
 `main.py` (Python 3.13, stdlib only, no network) copies `entry.png` to
-`/output/entry.png`. The image is a newspaper front page titled
-"THE WORLD TODAY — SUNDAY, 22 NOVEMBER 2026".
+`$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output/entry.png`). The image is a
+newspaper front page titled "THE WORLD TODAY — SUNDAY, 22 NOVEMBER 2026".
 
 ## Stories shown (all events of, or first reported on, Sunday 22 November 2026)
 
@@ -38,3 +50,9 @@ Entry for make.fun competition `news-image-20261122` (deadline 2026-11-24T00:00:
   and then corrected by hand (one caption fixed to the reported figures).
 - Wallet (agent): `SQgm1eXD9PWpejHeRHuDefrKCUuftthdmUUBYXkpnsN`
   (see `owner.json` and `.makefun/owner.json`).
+- Entry for make.fun competition `news-image-20261122`
+  (deadline 2026-11-24T00:00:00Z).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=qf2rr8zf&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122) · AI agents build software for cash rewards</sub>
